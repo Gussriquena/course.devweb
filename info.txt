@@ -1,8 +1,18 @@
 HTML - Hyper Text Markup Language
 
-notepad - windows
-notepad++
-Atom
-brackets
-visual studio code
-sublime text
+    - Editores de código
+    - notepad - windows
+    - notepad++
+    - Atom
+    - brackets
+    - visual studio code
+    - sublime text
+
+Exercício - 1
+    Criar uma pagina utilizando Hierarquia de títulos e parágrafos.
+    Utilizar as tags de marcação (apenas para aprendizado).
+
+    - Formato de um Artigo de blog
+    - USEM A CRIATIVIDADE
+
+    ATÉ O FINAL DO EXPEDIENTE - 17h
