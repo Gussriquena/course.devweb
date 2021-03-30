@@ -8,6 +8,9 @@ HTML - Hyper Text Markup Language
     - visual studio code
     - sublime text
 
+
+Códigos dos exercícios -> github
+
 Exercício - 1
     Criar uma pagina utilizando Hierarquia de títulos e parágrafos.
     Utilizar as tags de marcação (apenas para aprendizado).
@@ -15,4 +18,6 @@ Exercício - 1
     - Formato de um Artigo de blog
     - USEM A CRIATIVIDADE
 
-    ATÉ O FINAL DO EXPEDIENTE - 17h
+Exercício - 2
+    Adicionar listas, imagens e links a página que vocês criaram... no github
+    
