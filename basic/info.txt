@@ -1,8 +1,0 @@
-HTML - Hyper Text Markup Language
-
-notepad - windows
-notepad++
-Atom
-brackets
-visual studio code
-sublime text
