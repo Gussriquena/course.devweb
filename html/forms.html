@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- configuracoes informacoes uteis da pagina -->
+        <!-- obrigatório -->
+        <title>AULA - FORMS</title>
+
+        <!-- opcionais -->
+        <meta charset="UTF-8" />
+        <meta name="description" content="aqui é a descrição da minha página" />
+        <meta name="keywords" content="comida, lanche, suco, hot dog" />
+        <meta name="author" contet="Gustavo Riquena" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- opcional - link - importar arquivos ou código externo para nossa página -->
+        <link rel="icon" href="images\pericles2.png">
+    </head>
+    <body>
+        <!-- form - demarca o formulário -->
+        <!-- action - destino dos dados / method - get - pela url, post - headers -->
+        <form>
+            <!-- input - tag para entrada de dados -->
+            <!-- atributo booleanos - readonly, disabled, autofocus, multiple  -->
+            <!-- autocomplete - on, off -->
+
+            <!--======####### INPUT TYPES #####=========-->
+
+            <!--======================================================-->
+            <!-- TEXT -->
+            <!--======================================================-->
+
+            <!-- text (mais utilizado) - maxlenth (máximo de caracteres), size (tamanho em caracteres), placeholder (texto padrão) -->
+
+            <label for="txtName">Name: </label><!-- label - etiqueta do elemento -->
+            <input type="text" id="txtName" maxlength="30" size="40" placeholder="Digite aqui seu nome" />
+
+            <!-- password (MUITO utilizado) - esconde o texto -->
+            <br />
+            <label for="txtPassword">Password: </label>
+            <input type="password" id="txtPassword" />
+
+            <!-- email (MUITO utilizado) - facilita validação de emails e preenchimento automático -->
+            <br />
+            <label for="txtEmail">Email: </label>
+            <input type="email" id="txtEmail" />
+
+            <!-- search (muito utilizado) - facilita integrações com mecanismos de buscas -->
+            <br />
+            <label for="txtSearch">Pesquisa</label>
+            <input type="search" id="txtSearch" />
+
+            <!-- url (pouco utilizado) - usuário pode inserir uma URL (facilita validação e sugestões do browser) -->
+            <br />
+            <label for="txtUrl">URL: </label>
+            <input type="url" id="txtUrl" />
+
+            <!--======================================================-->
+            <!-- DATAS -->
+            <!--======================================================-->
+
+            <!-- date (muito utilizado)  - campo de data com calendário -->
+            <br />
+            <label for="dtDataNascimento">Data nasc.</label>
+            <input type="date" id="dtDataNascimento" max="2021-04-28" min="2021-04-20" />
+
+            <!-- datetime-local (comum) - campo de data e hora -->
+            <br />
+            <label for="dtDataHora">Data e hora</label>
+            <input type="datetime-local" id="dtDataHora" />
+
+            <!-- month (pouco utilizado) - campo que seleciona apenas um mês -->
+            <br />
+            <label for="txtMonth">Mês</label>
+            <input type="month" id="txtMonth" />
+
+            <!-- time (comum) - seleção apenas de hora -->
+            <br />
+            <label for="txtTime">Hora: </label>
+            <input type="time" id="txtTime" />
+
+            <!-- week (pouco utilizada) - selecionar uma semana (pelo número dela) -->
+            <br />
+            <label for="txtWeek">week.</label>
+            <input type="week" id="txtWeek" />
+
+            <!--======================================================-->
+            <!-- NÚMEROS -->
+            <!--======================================================-->
+
+            <!-- range (pouco utilizado) - seleção de range (volume, tamanho, quantidade, etc) -->
+            <br />
+            <label for="txtRange">Range: </label>
+            <input type="range" id="txtRange" min="0" max="10" />
+
+            <!-- number (muito utilizado) - seleção de números - step (atributo que define de quantos em quantos números 'pular') -->
+            <br />
+            <label for="txtNumber">Idade: </label>
+            <input type="number" id="txtNumber" max="100" min="0" step="10" value="0" />
+
+            <!--======================================================-->
+            <!-- OUTROS -->
+            <!--======================================================-->
+
+            <!-- hidden (muito utilizada) - armazenar valores úteis para a página -->
+            <br />
+            <input type="hidden" id="txtHidden" value="2000" />
+
+            <!-- color (pouco utilizado) - campo de seleção de cor em Hex ou RGB -->
+            <br />
+            <label for="inputColor">Choose a color</label>
+            <input type="color" id="inputColor" />
+
+            <!-- file (muito utilizado) - envio de arquivos para servidor, como upload de fotos, etc -->
+            <br />
+            <label for="txtFile">File</label>
+            <input type="file" id="txtFile" multiple/>
+
+            <!--======================================================-->
+            <!-- BOTÕES -->
+            <!--======================================================-->
+
+            <!-- submit (MUITO utilizado) - faz o envio de todos os dados do formulário que estiver dentro da tag form -->
+            <br />
+            <input type="submit" id="txtEnviar" />
+
+            <!-- button (MUITO utilizado) - cria um botão genérico -->
+            <input type="button" id="txtEnviar" value="Cancelar" />
+        </form>
+    </body>
+</html>

@@ -9,6 +9,7 @@ HTML - Hyper Text Markup Language
     - sublime text
 
 Códigos dos exercícios -> github
+Padrão de nomenclatura do repositório remoto -> course.web.nome.sobrenome
 
 Exercício - 1
     Criar uma pagina utilizando Hierarquia de títulos e parágrafos.
@@ -23,3 +24,7 @@ Exercício - 2
 Exercício - 3
     Adicionar uma tabela à pagina, utilize os atributos colspan e rowspan
     Podem criar uma ou mais páginas, e utilizar links (tag <a>) para navegação
+
+Exercício - 4
+    Adicionar formulário a página (separada ou na pagina principal)
+    utilizando a tag form, label e inputs
