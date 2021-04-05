@@ -28,3 +28,9 @@ Exercício - 3
 Exercício - 4
     Adicionar formulário a página (separada ou na pagina principal)
     utilizando a tag form, label e inputs
+
+Exercício - 5
+    Adicionar as páginas os inputs de seleção (radio, checkbox, e select)
+    utilizar tag button (type submit, ou reset) e icones do HTML &copy; &nbsp;
+    Organizar toda a estrutura da página em divs...
+    Utilizar somente o conteúdo passado (gambiarras liberadas)

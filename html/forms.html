@@ -116,15 +116,87 @@
             <input type="file" id="txtFile" multiple/>
 
             <!--======================================================-->
+            <!-- SELEÇÃO -->
+            <!--======================================================-->
+
+            <br />
+
+            <!-- select (MUITO utilizado) -->
+            <label for="sltUf">Selecione seu estado</label>
+            <select id="sltUf">
+                <option value=""></option>
+                <option value="1">SP</option>
+                <option value="2" selected>RJ</option>
+                <option value="3">MG</option>
+            </select>
+
+            <br /><br />
+
+            <!-- checkbox (MUITO Utilizado) - multi seleção -->
+            <input type="checkbox" id="chkOpcao" checked/>
+            <label for="chkOpcao">Opção 1</label>
+            <br />
+            <input type="checkbox" id="chkOpcao2" checked />
+            <label for="chkOpcao2">Opção 2</label>
+            <br />
+            <input type="checkbox" id="chkOpcao3" />
+            <label for="chkOpcao3">Opção 3</label>
+
+            <!-- fieldset - cria um tipo de "div" com borda e título -->
+            <br /><br />
+            <fieldset>
+                <!-- legend - adiciona um título/legenda ao fieldset -->
+                <legend>RadioButton Group 1</legend>
+
+                <!-- radio (MUITO Utilizado) - seleção única - agrupar por name -->
+                <input type="radio" id="rbtOpcao" name="rbtOpcoes" checked />
+                <label for="rbtOpcao">Opção 1</label>
+                <br />
+                <input type="radio" id="rbtOpcao2" name="rbtOpcoes" />
+                <label for="rbtOpcao2">Opção 2</label>
+                <br />
+                <input type="radio" id="rbtOpcao3" name="rbtOpcoes" />
+                <label for="rbtOpcao3">Opção 3</label>
+            </fieldset>
+
+            <br /><br />
+            <fieldset>
+                <legend>RadioButton Group 2</legend>
+                <input type="radio" id="rbtOpcao4" name="rbtOpcoes2" />
+                <label for="rbtOpcao4">Opção 1</label>
+                <br />
+                <input type="radio" id="rbtOpcao5" name="rbtOpcoes2" />
+                <label for="rbtOpcao5">Opção 2</label>
+                <br />
+                <input type="radio" id="rbtOpcao6" name="rbtOpcoes2" />
+                <label for="rbtOpcao6">Opção 3</label>
+            </fieldset>
+
+
+            <!--======================================================-->
             <!-- BOTÕES -->
             <!--======================================================-->
 
             <!-- submit (MUITO utilizado) - faz o envio de todos os dados do formulário que estiver dentro da tag form -->
             <br />
+            <br />
             <input type="submit" id="txtEnviar" />
 
-            <!-- button (MUITO utilizado) - cria um botão genérico -->
-            <input type="button" id="txtEnviar" value="Cancelar" />
+            <!-- reset (MUITO utilizado) - limpa todos os campos -->
+            <br />
+            <input type="reset" />
+
+            <!-- type - button (MUITO utilizado) - cria um botão genérico -->
+            <br />
+            <input type="button" id="txtEnviar" value="Botão genérico" />
+
+            <!-- tag - button (MUITO utilizado) - cria um botão com a possibilidade de inserir elementos dentro -->
+            <!-- https://www.w3schools.com/charsets/ref_utf_symbols.asp -->
+            <button >
+                &#x2600; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clique aqui &#x2600;
+            </button>
+
+
         </form>
     </body>
 </html>
