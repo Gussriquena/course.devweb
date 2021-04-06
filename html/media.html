@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- configuracoes informacoes uteis da pagina -->
+        <!-- obrigatório -->
+        <title>AULA DEVWEB</title>
+
+        <!-- opcionais -->
+        <meta charset="UTF-8" />
+        <meta name="description" content="aqui é a descrição da minha página" />
+        <meta name="keywords" content="comida, lanche, suco, hot dog" />
+        <meta name="author" contet="Gustavo Riquena" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- opcional - link - importar arquivos ou código externo para nossa página -->
+        <link rel="icon" href="images\pericles2.png">
+    </head>
+    <body>
+        <!-- SEO - Search engine Optimization -->
+        <!-- Seo engloba o uso de tags, e textos -->
+
+        <!-- header - define um cabeçalho da página -->
+        <header>
+            <h1>Página de mídias</h1>
+
+            <!-- nav - navegação, qualquer estrutura de navegação -->
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Search</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- section - define uma selção de conteúdo -->
+        <section class="medias">
+            <div>
+                <h2>Adicionando Audio</h2>
+                <!-- audio - adiciona audio na página utilizando a tag source -->
+                <!-- controls (mostrar os controles), autoplay (abrir a página com audio tocando) -->
+                <audio controls autoplay>
+                    <!-- o browser tentará utilizar todos os sources, até chegar no texto final -->
+                    <source src="media/cult_of_personality.mp3" type="audio/ogg" />
+                    <source src="media/cult_of_personality.mp3" type="audio/mp3" />
+                    Seu browser não suporta este formato de audio
+                </audio>
+            </div>
+
+            <div>
+                <h2>Adicionando vídeo</h2>
+
+                <!-- video - adiciona video na página utilizando a tag source -->
+                <video controls width="700" height="">
+                    <!-- o browser tentará utilizar todos os sources, até chegar no texto final -->
+                    <source src="media\Thanos_ironman_in_heaven.mp4" type="video/mp4" />
+                    Seu browser não suporta o formato de vídeo
+                </video>
+            </div>
+
+            <div>
+                <h2>Incorpando vídeo do youtube</h2>
+
+                <!-- abra o vídeo no youtube > compartilhar > incorporar > copiar código -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-oHV_Uy21kI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div>
+                <h2>Incorpando mapas</h2>
+
+                <!-- abra o google maps na opção desejada > compartilhar > incorporar > copiar código -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.8028091017222!2d-46.846633085023285!3d-23.503611084711622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf021f9cae4a09%3A0xa156f798c99aba64!2sCanopus%20Corporate%20Alphaville!5e0!3m2!1spt-BR!2sbr!4v1617731773959!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div>
+                <h2>Adicionando vídeo do youtube</h2>
+
+                <!-- compartilhar > incorporar > copiar código -->
+                <iframe src="https://assets.pinterest.com/ext/embed.html?id=693061830142833671" height="618" width="345" frameborder="0" scrolling="no" ></iframe>
+
+                <iframe src="https://assets.pinterest.com/ext/embed.html?id=7107311900725129" height="618" width="345" frameborder="0" scrolling="no" ></iframe>
+            </div>
+
+            <div>
+                <h2>Incorpando Sites externos</h2>
+                <iframe src="https://blog.hotmart.com/pt-br/como-criar-um-blog/" width="500" height="500" frameborder="0"></iframe>
+            </div>
+
+            <div>
+                <h2>Incorpando site aleatório</h2>
+                <iframe src="https://www.infomoney.com.br/" width="900" height="1000" frameborder="0"></iframe>
+            </div>
+        </section>
+
+        <!-- Rodapé da página -->
+        <footer>
+            <div id="textFooter">
+                <p>Este foi meu website &copy gustavo | 2021</p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Search</li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
