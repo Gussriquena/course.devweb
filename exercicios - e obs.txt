@@ -11,32 +11,23 @@ HTML - Hyper Text Markup Language
 Códigos dos exercícios -> github
 Padrão de nomenclatura do repositório remoto -> course.web.nome.sobrenome
 
-Exercício - 1
-    Criar uma pagina utilizando Hierarquia de títulos e parágrafos.
-    Utilizar as tags de marcação (apenas para aprendizado).
-
-    - Formato de um Artigo de blog
-    - USEM A CRIATIVIDADE
-
-Exercício - 2
-    Adicionar listas, imagens e links a página que vocês criaram... no github
-
-Exercício - 3
-    Adicionar uma tabela à pagina, utilize os atributos colspan e rowspan
-    Podem criar uma ou mais páginas, e utilizar links (tag <a>) para navegação
-
-Exercício - 4
-    Adicionar formulário a página (separada ou na pagina principal)
-    utilizando a tag form, label e inputs
-
-Exercício - 5
-    Adicionar as páginas os inputs de seleção (radio, checkbox, e select)
-    utilizar tag button (type submit, ou reset) e icones do HTML &copy; &nbsp;
-    Organizar toda a estrutura da página em divs e fieldset...
-    Utilizar somente o conteúdo passado (gambiarras liberadas)
-
 Exercício 6
     - Organizar a página de vocês na estrutura HTML5
     - layout do site desenhado e salvo no git como imagem
     - Adicionar algum tipo de mídia na página (local ou incorporada)
     - (opcional) brincar com iframes adicionando páginas externas
+
+====== CSS
+
+CSS - Cascading Style Sheets
+
+Prioridade de estilo
+- inline (na própria tag)
+- interno (tag style dentro do doc html)
+- externo (arquivo de CSS externo)
+
+seletor {
+    propriedade: valor;
+    propriedade: valor;
+    propriedade: valor;
+}
