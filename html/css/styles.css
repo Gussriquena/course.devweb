@@ -1,9 +1,80 @@
 /* CSS Externo */
 
-p {
-    color: #00ff00;
+/* Setup inicial pagina */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Arial", "Verdana", sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
-div{
-    background-color: #ff0000;
+
+p {
+    /* 1em = 16px - compatibilidade */
+    font-size:  1.5em;
+
+    /* center, right, left, justify */
+    text-align: left;
+
+    /* lowercase, uppercase, capitalize */
+    text-transform: lowercase;
+
+    /* "dois dedinhos de paragrafo" */
+    text-indent: 50px;
+
+    /* left to right (ltr), right to left (rtl) */
+    direction: ltr;
+
+    /* Espaçamento entre letras, palavras e linhas */
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    line-height: 30px;
+
+    /* underline, line-through, overline, none */
+    text-decoration: none;
+
+    /* italic, normal  */
+    font-style: normal;
+
+    /* small-caps para fonte menor em capslock */
+    font-variant:normal;
+
+    /* sombra no texto */
+    text-shadow: 1px 2px 10px #888;
+
+    /* 'família' da fonte */
+    font-family: "Poppins", sans-serif;
+
+    /* espessura da fonte, 100 ao 900 ou bold/bolder */
+    font-weight: 100;
+}
+
+
+.texto-negrito {
+    font-weight: 900;
+}
+
+.texto-italico {
+    font-style: italic;
+}
+
+.texto-pequeno {
+    font-variant: small-caps;
+}
+
+.texto-riscado {
+    text-decoration: line-through;
+}
+
+.texto-sublinhado {
+    text-decoration: underline;
+}
+
+.texto-marcado {
+    background-color: #ffff00;
+}
+
+#meuNome{
+    background-color: #0000ff;
+    color: #fff;
 }

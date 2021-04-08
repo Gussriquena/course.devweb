@@ -31,3 +31,10 @@ seletor {
     propriedade: valor;
     propriedade: valor;
 }
+
+class = utilizada para criar grupos de formatação (pode ser usado em vários locais da página)
+id = único para cada elemento.
+
+Exercícios CSS
+    Estilizar todas as fontes da página
+    Trocar todas as tags de formatação de texto por <span></span>
