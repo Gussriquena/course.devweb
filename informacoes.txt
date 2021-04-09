@@ -1,20 +1,42 @@
 Fonte serifada
-
-Adequada para leitura (torna a leitura mais fluida)
-Tradicional, rústico, gramour, seriedade
-
+    Adequada para leitura (torna a leitura mais fluida)
+    Tradicional, rústico, gramour, seriedade
 
 Fonte sem serifa
-
-Adequada pra sites, logotipos (modernos)
-Jovialidade, disruptivo, padronizado
+    Adequada pra sites, logotipos (modernos)
+    Jovialidade, disruptivo, padronizado
 
 Comics
-
-propagandas, quadrinhos, casualmente utilizada
-Infantil, Nerd, descontraído
+    propagandas, quadrinhos, casualmente utilizada
+    Infantil, Nerd, descontraído
 
 Cursiva
+    Casualmente
+    Glamour, artístico, Tradicional (dependendo do uso)
 
-Casualmente
-Glamour, artístico, Tradicional (dependendo do uso)
+--==========================================================
+
+cores
+https://coolors.co/
+https://picular.co/netflix
+https://color.adobe.com/pt/create/image
+https://contrastchecker.com/
+
+Hexadecimal
+    # ff 22 ff
+
+    vermelho, verde, azul
+
+    0 - Tom mais escuro
+    F - Tom mais claro
+
+    0 ao 9 - A até F
+
+RGB
+    red, green, blue
+    0 até 255
+    rgb(0, 0, 0)
+
+rgba
+    red, gree, blue, alpha
+    rgba(0, 0, 0, 0.2)

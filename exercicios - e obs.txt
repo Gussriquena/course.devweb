@@ -35,6 +35,12 @@ seletor {
 class = utilizada para criar grupos de formatação (pode ser usado em vários locais da página)
 id = único para cada elemento.
 
+https://fonts.google.com/
+
 Exercícios CSS
     Estilizar todas as fontes da página
     Trocar todas as tags de formatação de texto por <span></span>
+
+Exercício - 2
+    Escolher uma paleta de cores baseado em imagem ou "aleatória"
+    Trocar somente backgrounds e fontes
