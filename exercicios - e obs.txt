@@ -43,4 +43,12 @@ Exercícios CSS
 
 Exercício - 2
     Escolher uma paleta de cores baseado em imagem ou "aleatória"
-    Trocar somente backgrounds e fontes 
+    Trocar somente backgrounds e fontes
+
+Exercício - 3
+    Adicionar backgrounds e background images a pagina, mudar background colors ou usar gradient
+    utilizar margin e padding
+
+Exercício InAwards
+    Desenhar layout da página inicial.
+    de forma simples (paint, draw.io, etc). porém, caprichado

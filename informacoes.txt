@@ -16,6 +16,8 @@ Cursiva
 
 --==========================================================
 
+https://cssgradient.io/
+
 cores
 https://coolors.co/
 https://picular.co/netflix
