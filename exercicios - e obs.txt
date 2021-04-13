@@ -49,6 +49,10 @@ Exercício - 3
     Adicionar backgrounds e background images a pagina, mudar background colors ou usar gradient
     utilizar margin e padding
 
+Exercício - 4
+    Criar estrutura de menu utilizando Lista ou estilizar outra lista na estrutura
+    Utilizar o efeito Hover nos elementos da página (links, ou onde for adequado)
+
 Exercício InAwards
     Desenhar layout da página inicial.
     de forma simples (paint, draw.io, etc). porém, caprichado

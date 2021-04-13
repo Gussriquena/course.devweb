@@ -3,6 +3,7 @@
 /* Setup inicial pagina */
 html, body {
     padding: 0;
+    margin: 0;
     font-family: "Poppins", "Arial", "Verdana", sans-serif;
     /* font-family: 'Kanit', sans-serif; */
     background-color: #fff;
@@ -116,9 +117,75 @@ html, body {
 #divHeader {
     font: normal normal 300 0.9em/1em "Arial";
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     background: linear-gradient(276deg, rgba(0,139,184,1), rgba(27,3,71, 1));
     color: #fff;
-    margin-top: -10px;
-    padding: 20px 0px;
+    margin-top: 0;
+    padding: 20px 40px;
+}
+
+#divMenu {
+    margin: 0;
+    padding: 0;
+}
+
+
+ol {
+    /* list-stype-type: lower-roman; corrigir*/
+    list-style-position: outside;
+}
+
+/* list-style-type: square, circle, upper-roman, lower-roman, upper-alpha, lower-alpha */
+nav #divMenu ul {
+    list-style-type: none;
+    text-align: right;
+    background-color: #333333;
+    margin: 0;
+    width: 100%;
+    padding: 10px 0px;
+    position: relative;
+}
+
+/* display: none, block, inline */
+nav #divMenu ul li {
+    display: inline;
+}
+
+/* estilizando link */
+nav #divMenu ul li a {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 30px;
+}
+
+/* efeito ao passar o mouse sobre o elemento */
+nav #divMenu ul li a:hover {
+    color: #333333;
+    transition: all 1s;
+    background-color: #ddd;
+}
+
+a i{
+    margin-right: 10px;
+}
+
+#minhaLista ul{
+    list-style-type: none;
+    width: 30%;
+}
+
+#minhaLista ul li{
+    font-size: 1.5em;
+    background-color: #ddd;
+    margin-top: 3px;
+    padding: 20px 40px;
+}
+
+#minhaLista ul li:hover{
+    background-color: #444;
+    color: #fff;
+    transition: all .5s;
+    cursor: pointer;
 }

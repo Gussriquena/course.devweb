@@ -12,8 +12,18 @@
         <meta name="author" contet="Gustavo Riquena" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+        <!-- Pegando fonte do google API -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
         <!-- opcional - link - importar arquivos ou código externo para nossa página -->
-        <link rel="icon" href="images\pericles2.png">
+        <link rel="icon" href="images\pericles2.png" />
+
+        <!-- CSS Externo -->
+        <link rel="stylesheet" href="css\styles.css" />
+
     </head>
     <body>
         <!-- SEO - Search engine Optimization -->
@@ -21,17 +31,21 @@
 
         <!-- header - define um cabeçalho da página -->
         <header>
-            <h1>Página de mídias</h1>
-
-            <!-- nav - navegação, qualquer estrutura de navegação -->
             <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Search</li>
-                </ul>
+                <div id="divMenu">
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-home"></i> home</a></li>
+                        <li><a href="tables.html"><i class="fas fa-table"></i> tabelas</a></li>
+                        <li><a href="forms.html"><i class="fas fa-envelope"></i> Forms</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="media.html">Media</a></li>
+                    </ul>
+                </div>
             </nav>
+
+            <div id="divHeader">
+                <h1 class="">Titulo da pagina</h1>
+            </div>
         </header>
 
         <!-- section - define uma selção de conteúdo -->
