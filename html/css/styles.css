@@ -189,3 +189,174 @@ a i{
     transition: all .5s;
     cursor: pointer;
 }
+
+/* Border-width: thin, medium, thick - PX; */
+/* Border-style: solid, dashed, dotted, hidden, groove, ridge, inset, outset; */
+
+#divBordas {
+    margin: 5% 25%;
+    padding: 2% 10%;
+    border-width: 20px;
+    border-color: rgba(0,139,184,1);
+    border-style: solid;
+    border-radius: 100%;
+}
+
+/* border shorthand - border: width style color; */
+
+#imgThanos {
+    border-radius: 5px;
+    border: 30px solid #444;
+}
+
+#secaoTabela{
+    padding: 0px 10%;
+    background-color: #fff;
+}
+
+/* border-collapse: separate (borda separada), collapse (tudo junto) */
+
+#tabelaBordas{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+
+#tabelaBordas caption{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 1.6em;
+    background: linear-gradient(276deg, rgba(27,3,71, 1), rgba(0,139,184,1));
+}
+
+#tabelaBordas th{
+    background-color: #666;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+#tabelaBordas td {
+    background-color: #ddd;
+    padding: 10px 0px;
+}
+
+#tabelaBordas td:hover {
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#sectionForm{
+    padding: 2% 10%;
+}
+
+#formLogin{
+    color: #fff;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 10% 10%;
+    background: linear-gradient(315deg, rgba(28,11,59,1) 0%, rgba(46,51,52,1) 100%);
+    box-shadow: 2px 2px 10px #eee;
+    border-radius: 10px;
+}
+
+.input-group, .input-group-2{
+    margin: 20px 20px;
+}
+
+
+#formLogin .input-group input {
+    font-family: 'Segoe UI';
+    border: none;
+    padding: 15px 20px;
+    font-size: 0.9em;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0,0,0, 0.3);
+    font-weight: 200;
+    width: 100%;
+    background-color: rgba(255,255,255, 0.1);
+    color: rgba(255,255,255, 0.4);
+    margin-top: 10px;
+}
+
+#formLogin .input-group input:hover{
+    cursor: pointer;
+}
+
+#formLogin .input-group input:focus {
+    outline: none;
+    color: #fff;
+    transition: all 1s;
+}
+
+#formLogin .input-group-2 input{
+    background: transparent;
+    font-family: 'Segoe UI';
+    border: none;
+    border-bottom: 2px solid #bbb;
+    padding: 5px 5px;
+    font-size: 0.9em;
+    margin-left: 20px;
+    width: 100%;
+}
+
+#formLogin .input-group-2 input:focus{
+    outline: none;
+    border-bottom: 2px solid #000;
+    transition: all 1s;
+}
+
+#formLogin .buttons-group {
+    float: right;
+}
+
+#formLogin .buttons-group button i{
+    margin-right: 5px;
+}
+
+
+#formLogin .buttons-group button {
+    border: none;
+    padding: 15px 35px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0,0,0, 0.3);
+    color: #fff;
+}
+
+#formLogin .buttons-group button[type="reset"]{
+    background-color: #a6443c;
+}
+
+#formLogin .buttons-group button[type="submit"]{
+    background-color: #237d59;
+}
+
+#formLogin .buttons-group button:focus{
+    outline: none;
+}
+
+#formLogin .buttons-group button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #000;
+    transition: all 1s;
+}
+
+#formLogin .buttons-group button[type="submit"]:hover{
+    background-color: #237d59;
+    transition: all .5s;
+}
+
+#formLogin .buttons-group button[type="reset"]:hover{
+    background-color: #a6443c;
+    transition: .5s;
+}
+
+/* comment */

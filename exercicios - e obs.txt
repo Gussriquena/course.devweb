@@ -53,6 +53,11 @@ Exercício - 4
     Criar estrutura de menu utilizando Lista ou estilizar outra lista na estrutura
     Utilizar o efeito Hover nos elementos da página (links, ou onde for adequado)
 
+Exercício - 5
+    Aplicar estilos as tabelas, formulários e botões
+    Aplicar efeitos em mudanças de estado: hover, focus
+
+
 Exercício InAwards
     Desenhar layout da página inicial.
     de forma simples (paint, draw.io, etc). porém, caprichado
