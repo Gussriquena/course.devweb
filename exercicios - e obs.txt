@@ -57,6 +57,9 @@ Exercício - 5
     Aplicar estilos as tabelas, formulários e botões
     Aplicar efeitos em mudanças de estado: hover, focus
 
+Exercício - 6:
+    Criar um baseStyle para sua página utilizando classes e variáveis CSS
+    Organizar o css por página
 
 Exercício InAwards
     Desenhar layout da página inicial.

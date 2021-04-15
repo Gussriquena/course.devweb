@@ -1,0 +1,96 @@
+
+/* Guardar em variáveis cores mais utilizadas */
+/* Variáveis Globais */
+:root {
+    --gradient-default: #444;
+    --gradient-success: linear-gradient(315deg, rgba(94,209,163,1), rgba(83,126,109,1));
+    --gradient-danger: linear-gradient(315deg, rgba(145,61,61,1), rgba(190,78,78,1));
+    --gradient-warning: linear-gradient(315deg, rgba(255,218,114,1), rgba(203,139,93,1));;
+    --background-color-dark: #444;
+    --color-green: #5ed1a3;
+    --color-white: #ffffff;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.btn {
+    /*variável local*/
+    --padding-btn-default: 15px 40px;
+    border: none;
+    padding: var(--padding-btn-default);
+    border-radius: 5px;
+    color: var(--color-white);
+    font-size: 1.2em;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn-default{
+    background: var(--gradient-default);
+}
+
+.btn-success{
+    background: var(--gradient-success);
+}
+
+.btn-danger {
+    background: var(--gradient-danger);
+}
+
+.btn-warning {
+    background: var(--gradient-warning);
+}
+
+.ul-list{
+    list-style-type: none;
+}
+
+.list-item{
+    padding: 10px 20px;
+    border: 1px solid var(--color-white);
+}
+
+.ul-default .list-item{
+    background-color: #ddd;
+}
+
+.ul-dark .list-item{
+    background: var(--background-color-dark);
+    color: var(--color-white);
+}
+
+.ul-danger .list-item {
+    background: var(--gradient-danger);
+    color: var(--color-white);
+}
+
+.hover-size:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.hover-rotate:hover{
+    transform: rotate(10deg);
+}
+
+.text-small{
+    font-size: 1em;
+}
+
+.text-medium{
+    font-size: 1.5em;
+}
+
+.text-large{
+    font-size: 2em;
+}
