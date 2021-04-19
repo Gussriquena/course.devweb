@@ -17,6 +17,8 @@ Cursiva
 --==========================================================
 
 https://cssgradient.io/
+https://css-tricks.com/guides/
+https://www.maujor.com/
 
 cores
 https://coolors.co/

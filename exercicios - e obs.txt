@@ -61,6 +61,10 @@ Exercício - 6:
     Criar um baseStyle para sua página utilizando classes e variáveis CSS
     Organizar o css por página
 
+Exercício - 7:
+    Aplicar o conceito de flexbox ao layout do site de vocês
+    Utilizar os efeitos de transformação aos efeitos hover
+
 Exercício InAwards
     Desenhar layout da página inicial.
     de forma simples (paint, draw.io, etc). porém, caprichado

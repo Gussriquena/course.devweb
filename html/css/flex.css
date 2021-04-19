@@ -1,0 +1,120 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', 'Arial', 'verdana', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ddd;
+    padding: 2%;
+    align-items: center;
+    align-content: space-around;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #888;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-default {
+    width: 200px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+.navigation .nav-ul {
+    list-style-type: none
+    align-items: center;
+}
+
+.navigation .nav-ul li {
+    display: inline;
+}
+
+.navigation .nav-ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.nav-toggle-icon, .nav-toggle{
+    color: #fff;
+    font-size: 1.3em;
+    display: none;
+}
+
+.nav-toggle-icon:hover {
+    cursor: pointer;
+}
+
+#chkToggle{
+    display: none;
+}
+
+@media screen and (max-width: 750px){
+    .navbar .nav-ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-toggle-icon, .nav-toggle {
+        display: block;
+        padding-right: 5%;
+    }
+
+    #chkToggle:checked ~ .nav-ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navigation .nav-ul {
+        display: none;
+    }
+}
+
+/* flex-direction: row | row-reverse; column | column-reverse */
+/* flex-wrap: nowrap | wrap | wrap-reverse ; */
+
+/* posicionamento dos itens em relação ao eixo principal */
+/* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; */
+
+/* Align-items: stretch | flex-start | flex-end | center | baseline */
+/* eixo vertical */
+
+/* align-content: flex-start | flex-end | center | stretch | space-between | space-around */
+/* linhas, eixo vertical */
+
+/* ITEM DO CONTAINER */
+/* order:  */
+
+/* flex-grow: 0; */
+/* flex-grow: 1; espaço de todos os itens serão distribuidos igualmente */
+
+/* flex-shrink: ; encolher o item*/
+/* flex-base: ; tamanho inicial do item */
+
+/* align-self: ; alinha único item no container */
